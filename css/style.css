@@ -69,6 +69,10 @@ h1, h3, h5, h6 {
 
 }
 
+.fh5co-listing h2.section-title {
+  color: #000; /* Set your desired color */
+}
+
 figure {
   margin-bottom: 2em;
 }
