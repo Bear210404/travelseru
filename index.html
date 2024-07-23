@@ -27,8 +27,32 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
+	// Disable right-click
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// Disable F12 key
+document.onkeydown = function(e) {
+  if (e.keyCode == 123) {
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+    return false;
+  }
+  if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+    return false;
+  }
+}
+</script>
 	</head>
-	<body>
+	<body oncontextmenu="return true">
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 		<div id="fh5co-header">
