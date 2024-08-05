@@ -22,7 +22,29 @@
 	<link rel="stylesheet" href="css/superfish.css">
 
 	<link rel="stylesheet" href="css/style.css">
+    <style>
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
 
+        .marquee {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -60,7 +82,7 @@ document.onkeydown = function(e) {
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="../index.html">TravelSERU</a></h1>
+						<h1 id="fh5co-logo"><a href="../index.html">TravelseruBersamakamu</a></h1>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
@@ -94,10 +116,14 @@ document.onkeydown = function(e) {
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover-bg-1.png);">
 				<div class="desc animate-box">
-					<h2>WebTravel</h2>
-					<h4>WebTravel merupakan perantara kamu yang tertarik dan mempermudah pemaparan pada paket perjalan liburan yang kami sediakan </h4>
-					<h2>About Us</h2>
-					<h4>Kami merupakan pihak yang sangat mempriritaskan kenyamanan </h4>
+					<h2>Travelseruberamakamu</h2>
+					<h4>Travelseruberamakamu merupakan perantara kamu yang tertarik dan mempermudah pemaparan pada paket perjalan liburan yang kami sediakan </h4>
+					<div class="container mt-5">
+						<div class="marquee-container">
+							<div class="marquee">
+								<span>xxx-----under maintenance------xxx</span>
+							</div>
+						</div>
 					
 
 				</div>
