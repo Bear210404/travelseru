@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <html class="no-js">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,29 +10,56 @@
 	
 
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 	
 	
-	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Superfish -->
 	<link rel="stylesheet" href="css/superfish.css">
+    <link rel="stylesheet" href="css/style.css">
 
-	<link rel="stylesheet" href="css/style.css">
 
 
-	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		// Disable right-click
+	document.addEventListener('contextmenu', function(e) {
+	  e.preventDefault();
+	});
 	
-
+	// Disable F12 key
+	document.onkeydown = function(e) {
+	  if (e.keyCode == 123) {
+		return false;
+	  }
+	  if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+		return false;
+	  }
+	  if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+		return false;
+	  }
+	  if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+		return false;
+	  }
+	  if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+		return false;
+	  }
+	}
+	</script>
 	</head>
-	<body>
+	<body oncontextmenu="return true;">
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 		<div id="fh5co-header">
@@ -40,7 +67,7 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="../index.html">TravelSERU</a></h1>
+						<h1 id="fh5co-logo"><a href="index.html">TravelSERU</a></h1>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
@@ -50,8 +77,13 @@
 								<li>
 									<a href class="fh5co-sub-ddown">Destinasi</a>
 									<ul class="fh5co-sub-menu">
-										<li><a href="destination/paris.html" target="_blank">Paris</a></li>
-										<li><a href="destination/newyork.html" target="_blank">New York</a></li>
+										<li><a href="destination/balkan.html" target="_blank">Balkan</a></li>
+										<li><a href="destination/maldives.html" target="_blank">Maldives</a></li>
+										<li><a href="destination/halstat.html" target="_blank">Hallstatt</a></li>
+										<li><a href="destination/viena.html" target="_blank">Vienna</a></li>
+										<li><a href="destination/slovakia.html" target="_blank">Slovakia</a></li>
+										<li><a href="destination/bulgaria.html" target="_blank">Bulgaria</a></li>
+										<li><a href="destination/athen.html" target="_blank">Athene</a></li>
 									</ul>
 								</li>
 								
@@ -69,7 +101,8 @@
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
 				<div class="desc animate-box">
-					<h2>Contact Us.</h2>
+					<h2>Company Profile</h2>
+					<h4>Untuk Company Profile bisa download <a href="images/TraveruBersamaKamu.pdf" download><u>disini</u></a></h4>
 				</div>
 			</div>
 
@@ -82,21 +115,19 @@
 					<div class="row">
 						<div class="col-md-6">
 							<h3 class="section-title">Our Address</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>We are based at Bali and Jakarta</p>
 							<ul class="contact-info">
-								<li><i class="icon-location-pin"></i>198 West 21th Street, Suite 721 New York NY 10016</li>
-								<li><i class="icon-phone2"></i>+ 1235 2355 98</li>
-								<li><i class="icon-mail"></i><a href="#">info@yoursite.com</a></li>
-								<li><i class="icon-globe2"></i><a href="#">www.instagram.com/@travelme37_rido</a></li>
+								<li><i class="icon-phone2"></i>+6281110016514</li>
+								<li><i class="icon-instagram"></i><a href="https://www.instagram.com/travelme37_rido">@travelseruberamakamuindonesia</a></li>
+								<li><i class="icon-whatsapp"></i><a href="https://wa.me/+628119920710">+628119920710</a></li>
+								<li><i class="icon-globe2"></i><a href="https://travelserubersamakamu.com/">travelseruberamakamu.com</a></li>
 							</ul>
 						</div>
 					</div>
 				</form>
 			</div>
 		</div>
-		<!-- END fh5co-contact -->
 		
-		<!-- END map -->
 
 
 		
@@ -109,8 +140,8 @@
 							<p class="fh5co-social-icons">
 								
 
-								<a href="#"><i class="icon-instagram"></i></a>
-								 
+								<a href="https://www.instagram.com/travelme37_rido?igsh=ODdmN21paDM3YXdv"><i class="icon-instagram"></i></a>
+								<a href="https://wa.me/+628119920710" target="_blank"><i class="fab fa-whatsapp"></i></a>	 
 						</div>
 					</div>
 				</div>
@@ -119,33 +150,12 @@
 	
 
 	</div>
-	<!-- END fh5co-page -->
+	
 
 	</div>
-	<!-- END fh5co-wrapper -->
-
-	<!-- jQuery -->
+	
 
 
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Superfish -->
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
-
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
-
-	<!-- Main JS -->
-	<script src="js/main.js"></script>
 
 	</body>
 </html>

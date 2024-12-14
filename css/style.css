@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Raleway", Arial, sans-serif;
   line-height: 1.6;
@@ -67,6 +62,10 @@ h1, h3, h5, h6 {
   margin-bottom: 20px; /* Spasi di bawah setiap paragraf */
   margin-left: 40px;
 
+}
+
+.fh5co-listing h2.section-title {
+  color: #000; /* Set your desired color */
 }
 
 figure {
